@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+#tabuleiro {
+    width: 80%;
+    margin: auto;
+}
+
+#jogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carta {
+    width: 21%;
+    height: 10vh;
+    margin: 1rem 0;
+    border: 1px solid black;
+}
+
+.verso {
+    display: none;
+}
+
+.face {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
